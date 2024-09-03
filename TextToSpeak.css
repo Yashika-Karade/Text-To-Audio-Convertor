@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+    background: linear-gradient(80deg,#074f50, #0e8082);
+   
+}
+.main{
+    height: 100vh;
+    width: 50%;
+    background:#074f50;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main h1{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    color: white;
+}
+.main h1 span{
+    color: rgb(222, 222, 26);
+    text-decoration: underline;
+}
+.main textarea{
+    height: 30%;
+    width: 70%;
+    background-color: #0e8082 ;
+    font-size: 15px;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+textarea::placeholder{
+    font-size: 16px;
+    color: white;
+}
+.voice{
+    width: 75%;
+    gap: 10px;
+    /* background-color:green; */
+}
+.voice select{
+    /* flex: 1; */
+    width: 85%;
+    height: 5vh;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #0e8082 ;
+    /* appearance: none; */
+    
+}
+.voice button{
+    height: 5vh;
+    width: 10vh;
+    outline: 0;
+    border: 0;
+    border-radius: 15px;
+    color: white;
+    background-color:#042828;
+    cursor: pointer;
+}
+button i{
+    color: white;
+}
